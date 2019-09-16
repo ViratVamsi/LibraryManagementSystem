@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Library Management System</title>
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
+    <!-- animate.css for animation effects as well as for wow jquery library for scrolling effects -->
+    <link rel="stylesheet" href="css/animate/animate.css">
+    <!-- adding carousel effect -->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="containter-fluid">
+                <!-- container fluid takes full width of webpage unlike container class -->
+                <div id="wrapper">
+                    <div class="navbar-header">
+                        <!-- navbar header is bootstap class for header in navbar -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <!-- span elements are used for white lines in toggle button -->
+                        </button>
+                        <a class="navbar-brand" href="#admin-home">Jntuv Library</a> <!-- navbar-brand is used for styling content in navbar header class -->
+                    </div>
+                    <div id="menu" class="collapse navbar-collapse">
+                        <!-- collapse navbar-collapse class should be used in order to make menu elements collapsable -->
+                        <ul class="nav navbar-nav">
+                            <!-- nav navbar-nav is used for only styling anchor elements in unordered list -->
+                            <li><a class="smooth-scroll" href="#home">Home</a></li>
+                            <li><a class="smooth-scroll" href="#logins">Logins</a></li>
+                            <li><a class="smooth-scroll" href="#about">About</a></li>
+                            <li><a class="smooth-scroll" href="#faculty">Library Faculty</a></li>
+                            <li><a class="smooth-scroll"  href="#feedback">Feedback</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="home-cover">
+            <div class="home-content">
+                <div class="home-content-inner animated zoomIn" data-wow-duration="2s" data-wow-delay=".5s">
+                    <div class="inner-content">
+                        <h2>welcome to jntuv<br></h2>
+                        <h3>Library Portal</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="logins">
+            <div id="logins-box">
+                <div class="content wow fadeInDown" data-wow-duration="2s" data-wow-delay=".5s">
+                    <h3>Logins</h3>
+                    <div class="underline"></div>
+                    <div id="box-contents">
+                        <div class="container wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="adminSignIn.php" target="_blank" title="click here"><img src="img/admin.png" alt="admin-img">
+                                    </a>
+                                    <div class="user_names"><a target="_blank" href="adminSignIn.php" title="click here"><h4>Admin</h4>
+                                        </a></div>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="studentsSignIn.php" target="_blank" title="click here"><img src="img/user.png" alt="user-img"></a>
+                                    <div class="user_names"><a target="_blank" href="studentsSignIn.php" title="click here">
+                                            <h4>User</h4>
+                                        </a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="about">
+        <p class="content wow zoomIn" data-wow-duration="2s" data-wow-delay=".5s"> 
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+    <section id="faculty">
+        <div id="faculty-members" class="owl-carousel owl-theme">
+            <img src="img/member1.jpg" height="500">
+            <img src="img/member2.jpg" height="500">
+            <img src="img/member3.jpg" height="500">
+            <img src="img/member4.jpg" height="500">
+            <img src="img/member5.jpeg" height="500">
+            <img src="img/member6.jpg" height="500">
+        </div>
+    </section>
+    <footer>
+            <div id="feedback">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="contact-left">
+                                <h3>JNTUV</h3>
+                                <p>We believe in <strong>Simple</strong>, <strong>Authorized</strong> & <strong>Effective</strong> Standards of Teaching that makes us one of the best</p>
+                                <div id="contact-info">
+                                    <address>
+                                        <strong>Headquarters:</strong><br>
+                                        <p>Kakinada<br>
+                                        Visakhapatnam</p>
+                                    </address>
+                                    <div id="phone-fax-email">
+                                        <p>
+                                            <strong>Phone:</strong><span> (91) 8974 56984 </span> <br>
+                                            <strong>Fax:</strong><span>  (91) 66 8754 8978  </span> <br>
+                                            <strong>Email:</strong><span>  jntuv@gmail.com  </span> <br>
+                                        </p>
+                                    </div>
+                                </div>
+                                <ul class="social-list">
+                                    <li><a href="#" class="social-icon icon-white"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#" class="social-icon icon-white"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#" class="social-icon icon-white"><i class="fa fa-youtube-play"></i></a></li>
+                                    <li><a href="#" class="social-icon icon-white"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="contact-right">
+                                <h3>Contact Us</h3>
+                                <form action="#">
+                                    <input type="text" name="full-name" placeholder="Full Name" class="form-control">
+                                    <input type="text" name="email" placeholder="Email Address" class="form-control">
+                                    <textarea rows="5" name="message" placeholder="Message..." class="form-control"></textarea>
+                                    <div id="send-btn">
+                                        <a class="btn btn-lg btn-general btn-white" href="#" role="button">SEND</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="footer-copyrights">
+                                <p>Copyrights &copy; 2019 All Rights Reserved by Vamsi Intelligence.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 hidden-sm hidden-xs">
+                            <div id="footer-menu">
+                                <ul>
+                                    <li><a class="smooth-scroll" href="#home">Home</a></li>
+                                    <li><a class="smooth-scroll" href="#logins">Logins</a></li>
+                                    <li><a class="smooth-scroll" href="#about">About</a></li>
+                                    <li><a class="smooth-scroll" href="#faculty">Library Faculty</a></li>
+                                    <li><a class="smooth-scroll" href="#feedback">Feedback</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <!-- jquery -->
+    <script src="js/jquery.js"></script>
+    <!-- bootstrap JS -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- animation on scroll -->
+    <script src="js/wow/wow.min.js"></script>
+    <!-- owl-carousel.js -->
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    <!-- custom.js -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

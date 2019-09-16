@@ -1,0 +1,551 @@
+
+html,body{
+	height: 100%;
+	width: 100%;
+}
+body{
+	font-family: Roboto-condensed;
+	text-transform: uppercase;
+}
+h5{
+	width: 100%;
+	text-align: center;
+}
+#home{
+	height: 100%;
+}
+
+.home-cover{
+	height: 100%;
+	background-image: url("../img/library1.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.home-content{
+	height: 100%;
+	width: 100%;
+	display: table;
+	background-size: cover;
+}
+.home-content-inner{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.inner-content h2{
+	color: #fff;
+	font-weight: bold;
+	font-size: 70px;
+	margin:10px 0 10px 0;
+}
+#admin-home .inner-content h2{
+	color: initial;
+	background-color: #fff;
+	text-shadow: 0 0 5px #000000;
+	font-weight: bold;
+	font-size: 70px;
+	margin:10px 0 10px 0;
+}
+
+.inner-content h3{
+	color: #fff;
+	font-weight: bold;
+	font-size: 30px;
+	margin:10px 0 10px 0;
+}
+#box-contents{
+	margin: 5px auto 5px auto;
+	padding: 10px 10px 10px 10px;
+}
+#box-contents h4,h3{
+	color: blue;
+	float: center;/*
+	margin-left: 10px;*/
+}
+
+#box-contents img{
+	float: top;
+	margin: 5px 0 5px 0;
+	background-color: red;
+}
+#logins{
+	width: 100%;
+	height: 100%;
+}
+#logins-box{
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+.content{
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+#student-home .inner-content h2{
+	color: #000;
+	text-shadow: 0 0 5px #ffffff,0 0 5px #000000;
+	font-weight: bold;
+	font-size: 70px;
+	margin:10px 0 10px 0;
+}
+#student-home .home-content{
+	width: 100%;
+	display: table;
+}
+#student-home .home-content-inner{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.search-bar{
+	width: 100%;
+	margin:0;
+	padding: 0;
+}
+.search-bar form{
+	float: right;
+}
+.search-bar input[type="text"]{
+	margin: 0;
+	margin:3px 0;
+	line-height: 10px;
+	border-radius: 6px;
+}
+.search-bar button{
+	margin:0;
+	padding: 0;
+}
+.search-bar input[type="submit"] {
+    width: inherit;
+    border-radius: 5px;
+    border: 1px solid #2196F3;
+}
+/*====================================================
+				Admin TabPortal
+====================================================*/
+.admin-home-cover{
+	height: 100%;
+	background-image: url("../img/student-home2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#admin-home{
+	height: 100%;
+}
+.content{
+	text-align: center;
+}
+
+.underline{
+	background-color:red;
+	margin:5px auto 5px auto;
+	width: 50px;
+	height: 3px;
+}
+
+/*====================================================
+				Students TabPortal
+====================================================*/
+.student-home-cover{
+	height: 100%;
+	background-image: url("../img/student-home.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#student-home{
+	height: 100%;
+}
+.content{
+	text-align: center;
+}
+
+.underline{
+	background-color:red;
+	margin:5px auto 5px auto;
+	width: 50px;
+	height: 3px;
+}
+
+/*====================================================
+				Tabs Styling
+====================================================*/
+#tab-section{
+	height: 100%;
+	width: 100%;
+	padding: 50px 0;
+	margin: 0;
+	background-image: url("../img/student-home3.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.tabs{
+    width: 100%;
+    overflow: hidden;
+    display: table;
+    border: 2px solid #34c6d3;
+    background-color: #414b4c;
+    padding: 14px 0;
+    margin: 50px auto;
+    border-radius: 4px;
+}
+
+
+.tablinks{
+	background-color: #060605;
+	cursor: pointer;
+	padding:10px;
+	width: 100%;
+	margin: 10px auto;
+	color: #fff;
+}
+.tabs button{
+	color: #fff;
+}
+.tabs.col-md-2{
+	padding: 10px auto;
+}
+.tabs button:hover{
+	background-color: #fff;
+}
+.tabs button.active{
+	background-color: #000;
+}
+#tabsection-content{
+	width: 100%;
+    height: auto;
+}
+.tabcontent{
+	height: 100%;
+	width: 100%;
+	display: none;/*
+	padding: 6px 12px;
+	margin: 20px 10px;*/
+	/*border: 1px solid #000;*//*
+	border-top:none;*/
+	animation: fadeEffect 1s;
+}
+@keyframes fadeEffect{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+button.tablinks.btn.btn-lgactive {
+    padding: 10px 16px;
+    font-size: 18px;
+    background-color: #f93a1f;
+}
+.search-result{
+	border: 1px solid #000;
+}
+.search-result td{
+	border: 1px solid #fff;
+	padding: 3px 5px;
+	text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 0 10px #000;
+}
+.align-center{
+	width: 100%;
+	text-align: center;
+}
+.align-center table{
+	background-color:  #1c2829e8;
+}
+/*====================================================
+				Form Styling
+====================================================*/
+*{
+	margin: 0;
+	padding: 0;
+}
+#tabsection-content fieldset{
+	width: 500px;
+	border: 3px solid #fff;
+	margin: 30px auto 0 auto;
+	border-radius: 10px;
+	padding: 30px;
+	color:#fff;
+	text-shadow: 0 0 10px #000;
+	background-color: #1c2829e8;
+}
+#tabsection-content legend {
+    display: block;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #fff;
+    border: 0;
+    border-bottom: 2px solid #fff;
+}
+#tabsection-content input[type="text"],input[type="password"]{
+	margin: 10px 30px 10px 30px;
+	padding: 10px;
+	background-color: #fff;
+	color: #333;
+}
+#tabsection-content input[type="submit"]{
+	width: fit-content;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background-color: indigo;
+    background-color: initial;
+    font-size: 18px;
+}
+fieldset{
+	width: 500px;
+	border: 1px solid #000;
+	margin: 30px auto 0 auto;
+	border-radius: 10px;
+	padding: 30px;
+	color: #ffffff;
+    text-shadow: 3px 3px 10px #000;
+    background-color: #1c2829e8;
+}
+legend {
+    display: block;
+    padding: 3px;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #fff;
+    border-bottom: 1px solid #000;
+    }
+input[type="text"],input[type="password"]{
+	margin: 10px 30px 10px 30px;
+	padding: 10px;
+	border-radius: 6px;
+	background-color: #fff;
+	color: #000;
+}
+input[type="submit"]{
+	width: 100px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background-color: inherit;
+    padding: 10px;
+    margin: 3px;
+    color: #fff;
+    text-shadow: 0 0 #000;
+}
+td {
+    text-align: center;
+}
+a {
+    color: black;
+}
+/*====================================================
+				Navigation Styling
+====================================================*/
+
+
+li{
+	color: #fff;
+}
+.navbar-nav{
+	float: right;
+}
+#students-nav.navbar-nav{
+	float: left;
+}
+
+/*====================================================
+				About section Styling
+====================================================*/
+#about{
+	height: 100%;
+	width: 50%;
+}
+/*====================================================
+				Faculty section Styling
+====================================================*/
+#faculty{
+	height: 100%;
+}
+#faculty-members{
+	margin:10px;
+	vertical-align: middle;
+}
+#faculty-members img{
+	padding: 10px;
+	padding-bottom: 10px;
+}
+/*====================================================
+                       CONTACT
+======================================================*/
+
+footer {
+    background-color: #41464b;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#contact-left h3,
+#contact-right h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#contact-left p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#contact-info {
+    background-image: url("../img/world-map.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+address {
+    color: #fff;
+}
+address strong { font-size: 16px; }
+address strong,
+#phone-fax-email strong {
+    letter-spacing: 1px;
+}
+
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+/*====================================================
+                        BUTTONS (Generic)
+======================================================*/
+
+.btn-general {
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn-white {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    background-color: #fff;
+    color: #41464b;
+}
+
+.btn-blue {
+    border-color: #34c6d3;
+    color: #34c6d3;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+    background-color: #34c6d3;
+    color: #fff;
+}
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    padding: 3px 15px;
+    border-radius: 0;
+    display: none;
+}
+
+/*====================================================
+                       SOCIAL
+======================================================*/
+
+.social-list {
+    padding-left: 0;
+}
+
+.social-list li {
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.social-icon i {
+    font-size: 17px;
+}
+
+.icon-gray i {
+    color: #64707b;
+}
+
+.icon-white i {
+    color: #fff;
+}
+
+.social-icon i:hover {
+    color: #34c6d3;
+}
+
+
+/*====================================================
+                       FOOTER
+======================================================*/
+
+#footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+#footer-copyrights p {
+    margin: 0;
+    color: #fff;
+}
+
+#footer-menu {
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#footer-menu a:hover {
+    color: #34c6d3;
+}
+

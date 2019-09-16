@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="tabs">
+        <div class="containter">
+            <div class="row">
+                <div class="col-md-6">
+                    <button class="tablinks" onclick="openn(event,'search')">Search Book</button>
+                </div>
+                <div class="col-md-6">
+                    <button class="tablinks" onclick="openn(event,'account')">View Account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="search" class="tabcontent">
+        <!-- <div id="content-title">
+                <h3>Add a Book</h3>
+                <div class="underline"></div>
+            </div> -->
+        <fieldset>
+            <legend>Search Book</legend>
+            <form action="studentsTabPortal.php" method="POST">
+                <table>
+                    <tr>
+                        <td>Book ID</td>
+                        <td><input type="text" name="id"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input name="searchBook" type="submit" value="Search"></td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </div>
+    <div id="account" class="tabcontent">
+        <!-- <div id="content-title">
+                <h3>Add a Book</h3>
+                <div class="underline"></div>
+            </div> -->
+        <fieldset>
+            <legend>Account Details</legend>
+            <form action="studentsTabPortal.php" method="POST">
+                <table>
+                    <tr>
+                        <td colspan="2"><input name="viewAccount" type="submit" value="View Account"></td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </div>
+    </div>
+    <!-- jquery -->
+    <script src="js/jquery.js"></script>
+
+<!-- bootstrap JS -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- custom -->
+    <script src="js/custom.js"></script>
+
+    <!-- <script type="text/javascript">
+    function open(evt, cityName) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    </script> -->
+</body>
+
+</html>

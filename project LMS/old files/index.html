@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Library Management System</title>
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
+    <!-- animate.css for animation effects as well as for wow jquery library for scrolling effects -->
+    <link rel="stylesheet" href="css/animate/animate.css">
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="containter-fluid">
+                <!-- container fluid takes full width of webpage unlike container class -->
+                <div id="wrapper">
+                    <div class="navbar-header">
+                        <!-- navbar header is bootstap class for header in navbar -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <!-- span elements are used for white lines in toggle button -->
+                        </button>
+                        <a class="navbar-brand" href="#admin-home">Jntuv Library</a> <!-- navbar-brand is used for styling content in navbar header class -->
+                    </div>
+                    <div id="menu" class="collapse navbar-collapse">
+                        <!-- collapse navbar-collapse class should be used in order to make menu elements collapsable -->
+                        <ul class="nav navbar-nav">
+                            <!-- nav navbar-nav is used for only styling anchor elements in unordered list -->
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#logins">Logins</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#faculty">Library Faculty</a></li>
+                            <li><a href="#feedback">Feedback</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="home-cover">
+            <div class="home-content">
+                <div class="home-content-inner wow fadeInDown" data-wow-duration="2s" data-wow-delay=".5s">
+                    <div class="inner-content ">
+                        <h2>welcome to jntuv<br></h2>
+                        <h3>Library Portal</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="logins">
+            <div id="logins-box">
+                <div class="content  wow fadeInDown" data-wow-duration="2s" data-wow-delay=".5s">
+                    <h3>Logins</h3>
+                    <div class="underline"></div>
+                    <div id="box-contents">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="adminSignIn.php" target="_blank" title="click here"><img src="img/admin.png" alt="admin-img">
+                                    </a>
+                                    <div class="user_names"><a target="_blank" href="adminSignIn.php" title="click here"><h4>Admin</h4>
+                                        </a></div>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="studentsSignIn.php" target="_blank" title="click here"><img src="img/user.png" alt="user-img"></a>
+                                    <div class="user_names"><a target="_blank" href="studentsSignIn.php" title="click here">
+                                            <h4>User</h4>
+                                        </a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="about">
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+    <section id="faculty">
+    </section>
+    <section id="feedback">
+    </section>
+    <!-- jquery -->
+    <script src="js/jquery.js"></script>
+    <!-- bootstrap JS -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- animation on scroll -->
+    <script type="js/wow/wow.min.js"></script>
+    <!-- custom.js -->
+    <script type="js/custom.js"></script>
+</body>
+
+</html>

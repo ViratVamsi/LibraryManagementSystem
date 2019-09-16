@@ -1,0 +1,279 @@
+
+html,body{
+	height: 100%;
+	width: 100%;
+}
+body{
+	font-family: Roboto-condensed;
+	text-transform: uppercase;
+}
+h5{
+	width: 100%;
+	text-align: center;
+}
+#home{
+	height: 100%;
+}
+
+.home-cover{
+	height: 100%;
+	background-image: url("../img/library1.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.home-content{
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+.home-content-inner{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.inner-content h2{
+	color: #fff;
+	font-weight: bold;
+	font-size: 70px;
+	margin:10px 0 10px 0;
+}
+.inner-content h3{
+
+	color: inherit;
+	font-weight: bold;
+	font-size: 30px;
+	margin:10px 0 10px 0;
+}
+#box-contents{
+	margin: 5px auto 5px auto;
+	padding: 10px 10px 10px 10px;
+}
+#box-contents h4,h3{
+	color: blue;
+	float: center;/*
+	margin-left: 10px;*/
+}
+
+#box-contents img{
+	float: top;
+	margin: 5px 0 5px 0;
+	background-color: red;
+}
+#logins{
+	width: 100%;
+	height: 100%;/*
+	background-color: #ffeb3b;*/
+}
+#logins-box{
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+.content{
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.search-bar{
+	width: 100%;
+	/*display: table-cell;*/
+}
+.bar-content{
+	margin-top: 50px;
+	width: 100%;
+}
+.search-icon{
+	background-color: #fff;
+}
+/*====================================================
+				Admin TabPortal
+====================================================*/
+.admin-home-cover{
+	height: 100%;
+	background-image: url("../img/student-home2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#admin-home{
+	height: 100%;
+}
+.content{
+	text-align: center;
+}
+
+.underline{
+	background-color:red;
+	margin:5px auto 5px auto;
+	width: 50px;
+	height: 3px;
+}
+
+/*====================================================
+				Students TabPortal
+====================================================*/
+.student-home-cover{
+	height: 100%;
+	background-image: url("../img/student-home.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#student-home{
+	height: 100%;
+
+}
+.content{
+	text-align: center;
+}
+
+.underline{
+	background-color:red;
+	margin:5px auto 5px auto;
+	width: 50px;
+	height: 3px;
+}
+
+/*====================================================
+				Tabs Styling
+====================================================*/
+#tab-section{
+	height: 100%;
+	width: 100%;
+	padding: 50px 0;
+	margin: 0;
+	background-image: url("../img/student-home3.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.tabs{
+    width: 100%;
+    overflow: hidden;
+    display: table;
+    border: 2px solid #34c6d3;
+    background-color: #414b4c;
+    padding: 14px 0;
+    margin: 50px auto;
+    border-radius: 4px;
+}
+
+
+.tablinks{
+	background-color: #060605;
+	cursor: pointer;
+	padding:10px;
+	width: 100%;
+	margin: 10px auto;
+	color: #fff;
+}
+.tabs button{
+	color: #fff;
+}
+.tabs.col-md-2{
+	padding: 10px auto;
+}
+.tabs button:hover{
+	background-color: #fff;
+}
+.tabs button.active{
+	background-color: #000;
+}
+#tabsection-content{
+	width: 100%;
+	height: inherit;
+}
+.tabcontent{
+	height: 100%;
+	width: 100%;
+	display: none;/*
+	padding: 6px 12px;
+	margin: 20px 10px;*/
+	border: 1px solid #000;/*
+	border-top:none;*/
+	animation: fadeEffect 1s;
+}
+@keyframes fadeEffect{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+button.tablinks.btn.btn-lgactive {
+    padding: 10px 16px;
+    font-size: 18px;
+    background-color: #f93a1f;
+}
+.search-result{
+	border: 1px solid #000;
+}
+.search-result td{
+	border: 1px solid #000;
+	padding: 3px 5px;
+}
+.align-center{
+	width: 100%;
+	text-align: center;
+}
+/*====================================================
+				Form Styling
+====================================================*/
+*{
+	margin: 0;
+	padding: 0;
+}
+fieldset{
+	width: 500px;;
+	margin: 50px auto;
+	border-radius: 10px;
+	padding: 30px;
+	background-color: #03f4f4;
+}
+input[type="text"],input[type="password"]{
+	margin: 10px 30px 10px 30px;
+	padding: 10px;
+}
+input[type="submit"]{
+	width: 100px;
+    border-radius: 5px;
+    border: 2px solid #2196F3;
+}
+td {
+    text-align: center;
+}
+
+/*====================================================
+				Navigation Styling
+====================================================*/
+
+
+li{
+	color: #fff;
+}
+.navbar-nav{
+	float: right;
+}
+
+/*====================================================
+				About section Styling
+====================================================*/
+#about{
+	height: 100%;
+	width: 50%;
+}
+/*====================================================
+				Faculty section Styling
+====================================================*/
+#faculty{
+	height: 100%;
+}
+/*====================================================
+				Feedback section Styling
+====================================================*/
+#feedback{
+	height: 100%;
+}
+
